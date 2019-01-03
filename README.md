@@ -5,6 +5,7 @@ http://kozuaki.shinyapps.io/test4
 
 ＊グラフの説明
 基本的に、X軸は　Ice(100kg) 、ただし右上だけX軸がTempDiff
+
 左上：　氷使用量と、漁獲物の目標温度からのずれ（TempDiff）の関係　（かなり適当で、要検証）
 右上：　漁獲物の目標温度からのずれ（TempDiff）と単価の関係　
 
