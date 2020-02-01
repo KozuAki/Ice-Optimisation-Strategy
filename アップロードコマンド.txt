@@ -1,0 +1,23 @@
+The downloaded binary packages are in
+	C:/Users/kaiyoshigen2018/AppData/Local/Temp/RtmpKMNoeM/downloaded_packages
+> rsconnect::setAccountInfo(name='kozuaki', token='6FFD521A9964BEE1EEBFB2DF2174D909', secret='pCBnVt8goAZZN4T0BVKAiGJgcQrV1cMJ3yQwN9b2')
+
+library(rsconnect)
+
+Warning message:
+ パッケージ ‘rsconnect’ はバージョン 3.5.2 の R の下で造られました  
+> deployApp()
+
+
+#フォルダをアップする　server.R と ui.Rがはいった
+deployApp("D:/R作業ディレクトリ/21.test")
+deployApp("D:/R作業ディレクトリ/21.test/test20181227")
+
+deployApp("D:/R作業ディレクトリ/21.test/1.0.ice_optimisation")
+deployApp("D:/R作業ディレクトリ/21.test/01_ice_optimisation")
+
+library(rsconnect)
+deployApp("D:/R作業ディレクトリ/21.test/test4")　　#→ よくわからんけど、デフォルトのヒストグラムのに、パラメーターと表示部分だけを入れ替えたら、動いた
+
+# server とuiがいっしょになった app.R でも同じく、フォルダを指定する  →　うまくいかない
+deployApp("D:/R作業ディレクトリ/21.test/test3")
